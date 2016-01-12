@@ -1,0 +1,12 @@
+{
+    "name": "ServiceConnection",
+    "version": "0.0.0",
+    "description": "",
+    "author": "Sean Johnson <sjohnson@sjohnsonaz.com>",
+    "contributors": [],
+    "main": "src/ServiceConnection.js",
+    "repository": {},
+    "bugs": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
