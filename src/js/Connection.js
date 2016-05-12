@@ -1,15 +1,15 @@
 /**
- * @class ServiceConnection
+ * @class Connection
  * Browser Support: IE6+ - Basic Functionality, IE10+ - Progress and Upload support
  */
-var ServiceConnection = (function () {
+var Connection = (function () {
     /**
      * @constructor
      */
     /**
      * @property base
      */
-    function ServiceConnection(base) {
+    function Connection(base) {
         this.base = base;
     }
 
@@ -400,20 +400,20 @@ var ServiceConnection = (function () {
         return runner;
     }
 
-    ServiceConnection.prototype.call = call;
-    ServiceConnection.prototype.run = run;
-    ServiceConnection.prototype.Get = Get;
-    ServiceConnection.prototype.Post = Post;
-    ServiceConnection.prototype.Put = Put;
-    ServiceConnection.prototype.Delete = Delete;
-    ServiceConnection.prototype.formatUrl = formatUrl;
-    ServiceConnection.prototype.addRoute = addRoute;
-    return ServiceConnection;
+    Connection.prototype.call = call;
+    Connection.prototype.run = run;
+    Connection.prototype.Get = Get;
+    Connection.prototype.Post = Post;
+    Connection.prototype.Put = Put;
+    Connection.prototype.Delete = Delete;
+    Connection.prototype.formatUrl = formatUrl;
+    Connection.prototype.addRoute = addRoute;
+    return Connection;
 })();
 
 if (typeof exports === "object" && exports) {
     // Node version
     if (module) {
-        module.exports = ServiceConnection;
+        module.exports = Connection;
     }
 }

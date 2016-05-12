@@ -1,10 +1,10 @@
 {
-    "name": "ServiceConnection",
+    "name": "build-connection",
     "version": "0.0.0",
     "description": "",
     "author": "Sean Johnson <sjohnson@sjohnsonaz.com>",
     "contributors": [],
-    "main": "src/ServiceConnection.js",
+    "main": "src/js/Connection.js",
     "repository": {},
     "bugs": {},
     "dependencies": {},
